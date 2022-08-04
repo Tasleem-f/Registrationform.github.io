@@ -31,3 +31,178 @@
 </header>
 </body>
 </html>
+
+*{
+    margin: 0;padding: 0%; box-sizing: border-box;
+    font-family: 'Cormorant SC', serif;
+}
+header{
+    width: 100%; height: 100vh;
+    background-image: linear-gradient(rgba(24, 21, 21, 0.3),rgba(12, 8, 8, 0.1)), url('../images/mine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color: white; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+
+nav .logo{
+    width: 25%; text-align: center;
+}
+
+nav .menu{
+    width: 40%;
+    display: flex; justify-content: space-around;
+}
+
+nav .menu a {
+    width: 25%;
+    text-decoration: none; color: white;
+}
+
+nav .menu a:first-child{
+    color: #00b894;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; color: white;
+}
+
+section h3{
+    font-size: 35px; font-weight: 200; letter-spacing: 3px;
+    text-shadow: 3px 3px 2px black;
+}
+
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+section h2{
+    font-size: 25px;
+    color: #eee;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+
+section .btnone{
+    background: #fff;
+    color: #000;
+}
+
+.btnone:hover{
+    background: #00b894;
+    color: white;
+}
+
+section .btntwo{
+    background: #00b894;
+    color:#fff;
+}
+
+.btntwo:hover{
+    background: #fff;
+    color: #000;
+}
+
+.change_content:after{
+    content: '';
+    animation: changetext 5s infinite linear;
+    color:  #00b894;
+}
+
+@keyframes changetext{
+    0%{content:"BCA";}
+    20%{content:"B.Sc Chemisty";}
+    35%{content:"B.Sc Biology";}
+    50%{content:"B.Sc Math";}
+    65%{content:"BBA";}
+    75%{content:"BA Journalism";}
+    87%{content:"BA History";}
+    100%{content:"B.com";}
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Application form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="register">
+            <h2>Register here</h2>
+            <form id="register" method="post">
+                <label>First Name: </label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter your First name">
+                <br><br>
+                <label>Last Name: </label>
+                <br>
+                <input type="text" name="Lname" id="name" placeholder="Enter your Last name">
+                <br><br>
+                <label>Age: </label>
+                <br>
+                <input type="number" name="Age" id="name" placeholder="How old are you?">
+                <br><br>
+                <label>E-mail: </label>
+                <br>
+                <input type="email" name="email" id="name" placeholder="Enter your valid mail id">
+                <br><br>
+                <label>Nationality: </label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Country you belong to">
+                <br><br>
+                <label>Religion: </label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter your Religion">
+                <br><br>
+                <label>Aadhar No: </label>
+                <br>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your Aadhar number">
+                <br><br>
+                <label>Fathers Name: </label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Enter your Fathers name">
+                <br><br>
+
+            </form>
+        </div>
+    </div>   
+</body>
+</html>
+
+*{
+    margin: 0;padding: 0%; box-sizing: border-box;
+    font-family: 'Cormorant SC', serif;
+}
+header{
+    width: 100%; height: 100vh;
+    background-image: linear-gradient(rgba(24, 21, 21, 0.3),rgba(12, 8, 8, 0.1)), url('../images/mine.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
